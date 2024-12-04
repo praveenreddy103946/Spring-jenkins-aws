@@ -64,3 +64,4 @@ id-token: write #This is required for requesting the JWT
 
       - name: Check deployed application
         run: curl --retry 10 --retry-connrefused --retry-delay 5 -sSf ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+# Spring-jenkins-aws
